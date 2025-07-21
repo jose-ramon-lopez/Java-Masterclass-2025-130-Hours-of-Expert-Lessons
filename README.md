@@ -197,7 +197,7 @@ Es inmutable, los cambios destruyen el string y lo recrean.
 
 String myString = "This is a string";
 
-Operadores en string
+Operadores en string 
 - + concatenar
 
 jshell> {
