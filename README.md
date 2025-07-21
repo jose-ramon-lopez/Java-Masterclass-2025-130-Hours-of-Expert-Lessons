@@ -235,3 +235,40 @@ jshell> System.out.print(lastString + myInt)
 - variableName -=1
 - variableName--
 -
+
+## Creating Your First IntelliJ Project: "Hello World" Java Code Implementation
+Nomenclatura recomendada
+- Nombre de proyecto: Upper cammel case FirstJavaProject
+- Nombre de clase: Upper cammel case NewClass
+- Nombre de método: Lower cammel case getData
+- Nombre de variable: Lower cammel case varName
+
+##  Understanding IntelliJ Code Structure: Classes, Methods, and Basic Java Syntax
+- public: limita el acceso al código
+- class: Dentro de la clase hay datos y código
+- Method: Código que hace una operación. El código empieza por main
+
+public static void main(String[] args) {}
+
+## Mastering Java's if-then Statement: Conditional Logic for Program Flow Control
+
+if (true) {
+   statementIfTrue
+} else {
+   statementIfFalse
+}
+
+## Advanced Conditional Logic: Implementing the Logical AND Operator in Java Code
+- != distinto
+- == igual
+- > mayor que
+- >= mayor o igual
+- < menor
+- <= menor o igual
+
+Operador lógico
+- && and
+
+## Java's Logical OR Operator: Enhancing Conditional Statements for Flexible Code
+Operador lógico
+- || or
