@@ -272,3 +272,17 @@ Operador lógico
 ## Java's Logical OR Operator: Enhancing Conditional Statements for Flexible Code
 Operador lógico
 - || or
+
+## Assignment vs. Equality: Avoiding Common Java Operator Errors in IntelliJ
+- =
+- ==
+
+## Streamlining Code: Implementing Java's Ternary Operator for Concise Conditionals
+operand1 ? operand2 : operand3
+if operan1 true the operan2 if not operand3
+
+## Java Operator Precedence: Mastering Expression Evaluation and Challenge
+[Listado de operadores](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
+
+[Listado de precedencia de operaciones](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html)
+
