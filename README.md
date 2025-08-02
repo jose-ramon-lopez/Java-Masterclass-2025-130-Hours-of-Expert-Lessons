@@ -1,7 +1,9 @@
 # Java-Masterclass-2025-130-Hours-of-Expert-Lessons
+http://www.planetsuzy.org/t893508-p1200-model-amp-video-identification-iii.html
 
 ## Información general
 java distingue entre mayúsculas y minúsculas
+[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html#s4.6-whitespace)
 
 ## jshell 
 [JShell](https://docs.oracle.com/en/java/javase/21/jshell/introduction-jshell.html#GUID-630F27C8-1195-4989-9F6B-2C51D46F52C8)
@@ -285,4 +287,120 @@ if operan1 true the operan2 if not operand3
 [Listado de operadores](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
 
 [Listado de precedencia de operaciones](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html)
+
+## Introduction To The Fundamentals Of Java Workflow
+
+## Exploring Java Keywords And Understanding Expressions
+[keywords](https://docs.oracle.com/javase/specs/jls/se17/html/jls-3.html#jls-3.9)
+
+Una expresión devuelve un valor por ejemplo
+myVariable = 50
+
+## Mastering Java Statements, Whitespace, And Code Organization
+Statement es una linea dehecho en ;
+int myVariable = 50;
+
+Los extra spaces se ignoran
+int                   my Variable
+=
+50
+;
+
+[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html#s4.6-whitespace)
+
+##  Harnessing Code Blocks And The If-Then-Else Statement In Java
+         if (score < 5000 && score > 1000) {
+            System.out.println("Your score was less than 5000 but greater than 1000");
+        } else if (score < 1000) {
+            System.out.println("Your score was less than 1000");
+        } else {
+            System.out.println("Got here");
+        }
+
+## Deep Overview Of Methods In Java For Reusable Code
+método es una función
+
+- reduce código duplicado
+- se le pasan arguments
+
+public static void methodName(dataType varName, ...) {
+   }
+
+## Enhancing Skills With Additional Java Method Techniques
+public static int methodName(dataType varName, ...) {
+   return
+}
+
+##  Comprehensive Recap Of Java Methods
+- lower camel case
+- void puedo poner return para volver
+- public static void main(String[] args)
+
+## Hands-On Java Method Challenge For Deeper Practice
+
+
+## Introduction To Java Coding Exercises For Skill Development
+
+##  Delving Into Method Overloading In Java
+Overloading varios métods con el mismo nombre pero distintos parámetros
+
+Signature es el tipo, order y número de parámetros mas el nombre del método
+
+## Practical Method Overloading Challenge To Strengthen Java Expertise
+
+## Comprehensive Seconds-And-Minutes Challenge For Time-Based Calculations
+
+## Detailed Bonus Challenge Solution And Key Insights
+
+## Introduction To The Foundations Of Program Flow In Java
+
+## Exploring The Traditional And Enhanced Switch Statements
+- byte
+- short
+- int
+- char
+- string
+- enum
+
+Hay que tener cuidado del fall through
+
+        char letter = 'C';
+        switch (letter) {
+            case 'A':
+                System.out.println("Alpha");
+                break;
+            case 'B':
+                System.out.println("Beta");
+                break;
+            default:
+                System.out.println("WTF is "+ letter);
+                break;
+        }
+
+## Delving Deeper Into Advanced Switch Statement Features
+A partir de la versión 14
+        switch(switchValue) {
+            case 1 -> System.out.println("1");
+            case 2 -> System.out.println("2");
+            case 3, 4, 5 ->  {
+                System.out.println("Entre 3 y 5");
+                System.out.println("De hecho fue " + switchValue);
+            }
+            default -> System.out.println("Default");
+        }
+
+y se puede devolder valores directamente
+hay que fijarse que yield solo se usa si hay un bloque en un switch
+Si solo retorna un valor no hace falta yield
+ds
+    public static String getQuarter(String month) {
+        return  switch (month) {
+            case "Enero", "Febrero" -> "1st";
+            case "Marzo" -> "2nd";
+            default ->  {
+                String badResponse = month + " is bad";
+                yield badResponse;
+            }
+        };
+    }
 
